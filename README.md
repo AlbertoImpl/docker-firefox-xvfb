@@ -1,5 +1,7 @@
-# docker-firefox-xvfb
-This dockerfile contains the steps to create an image with firefox and a virtual display for CI
+# docker-firefox-43-xvfb
+
+This dockerfile contains the steps to create an image with firefox 43 and a virtual display for CI, ideal for protractor tests.
+DockerHub: https://hub.docker.com/r/albertoimpl/firefox-43-xvfb
 
 In your CI script do not forget to attach the screen with the following commands:
 
